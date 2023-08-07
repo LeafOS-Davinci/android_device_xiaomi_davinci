@@ -5,9 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/arrow_davinci.mk
+    $(LOCAL_DIR)/davinci.mk
 
 COMMON_LUNCH_CHOICES := \
-    arrow_davinci-user \
-    arrow_davinci-userdebug \
-    arrow_davinci-eng
+    davinci-user \
+    davinci-userdebug \
+    davinci-eng

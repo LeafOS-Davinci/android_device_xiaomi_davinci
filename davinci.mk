@@ -11,12 +11,10 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 # Inherit from davinci device
 $(call inherit-product, device/xiaomi/davinci/device.mk)
 
-# Inherit some common Arrow stuff.
-$(call inherit-product, vendor/arrow/config/common.mk)
+# Inherit some common Leaf stuff.
+$(call inherit-product, vendor/leaf/config/common_full_phone.mk)
 
-DEVICE_MAINTAINER := RemyL
-
-PRODUCT_NAME := arrow_davinci
+PRODUCT_NAME := davinci
 PRODUCT_DEVICE := davinci
 PRODUCT_BRAND := Xiaomi
 PRODUCT_MODEL := Mi 9T
